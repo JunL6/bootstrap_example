@@ -98,7 +98,7 @@
     <!--#####################START HERE######################-->
 
     <!-- FLEX ROW & FLEX ITEMS -->
-    <div class="row-hl d-flex">
+    <div class="row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -168,8 +168,8 @@
     <br>
 
     <!-- FLEX COLUMN -->
-    <div class="row-hl">
-      <div class="p-4 item-hl">Flex Item</div>
+    <div class="d-flex flex-column row-hl">
+      <div class="p-4 item-hl">Flex Item Column</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
     </div>
@@ -218,7 +218,7 @@
     <br>
 
     <!-- VERTICAL ALIGN ITEMS - BASELINE -->
-    <div class="row-hl">
+    <div class="d-flex align-items-baseline row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -238,12 +238,17 @@
     <br>
 
     <!-- ALIGN SELF -->
-    <div class="row-hl">
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
+    <div class="d-flex row-hl">
+      <div class="align-self-startp-4 item-hl">Flex Item</div>
+      <div class="align-self-center p-4 item-hl">Flex Item</div>
+      <div class="align-self-end p-4 item-hl">Flex Item</div>
+      <div class="align-self-baseline p-4 item-hl">Flex Item</div>
+      <div class="align-self-stretch p-4 item-hl">Flex Item</div>
+    </div>
+
+
+    <div>
+      <button class="btn btn-primary" style="border-radius: 40px">Go Premium</button>
     </div>
 
     <div style="margin-top:500px;"></div>
